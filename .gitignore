@@ -1,0 +1,51 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+
+###> symfony/framework-bundle ###
+/symfony/.env.local
+/symfony/.env.local.php
+/symfony/.env.*.local
+/symfony/config/secrets/prod/prod.decrypt.private.php
+/symfony/public/bundles/
+/symfony/public/resources/
+/symfony/public/thumbnails/
+/symfony/var/
+/symfony/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+/symfony/.phpunit
+/symfony/.phpunit.result.cache
+/symfony/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+/symfony/bin/*
+!/symfony/bin/console
+
+/logs/
+.idea
+/data/
+/build
+/build/*
+
+**/.DS_Store
+
